@@ -44,3 +44,15 @@ function absentVowel(x) {
 ### Code experience
 * [ShareMyTrip](https://github.com/TimeIsOut/HelpingMyFriend) - map app, using YandexMapAPI, Flask and sqlalchemy.
 * [workplace](https://github.com/TimeIsOut/workplace) - Python solutions for Codewars katas.
+
+### Education
+1. Yandex.Lyceum project:
+    * [First year of education](https://lyceum.yandex.ru/certificate/check/?certNumber=210233960&lastName=Анчиков)
+    * [Second year of education](https://lyceum.yandex.ru/certificate/check/?certNumber=200133960&lastName=Анчиков)
+1. Secondary education at School 1503
+1. Sololearn courses - Python, JS, SQL (not finished)
+
+### Languages
+Russian - primary \
+English - secondary (level: B2)
+
