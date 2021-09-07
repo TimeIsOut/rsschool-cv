@@ -10,3 +10,17 @@ the Yandex.Lyceum project, ending in one of the best students of the students' f
 I love coding, love coffee and hate lack of time. It's exciting for me to find new relationships
 in my workplace/office and talk a lot about themes, that don't even make sense. My core
 strengths are fast-learning and adapting to any problems appearing in front of me.
+### Skills
+* HTML5, CSS3
+* Python - Middle
+    * Flask
+    * sqlalchemy, SQLite
+    * FastAPI
+    * pygame
+    * PyQt5
+    * telebot, discordbot, vkapi
+* JavaScript - Basic
+* Kotlin - Basic
+* Pycharm, Webstorm, Intellij Idea
+* Git
+* Windows, Linux(CentOS, Ubuntu, Debian)
