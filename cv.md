@@ -5,8 +5,7 @@ __Email__: [timothyanchikov@gmail.com](mailto:timothyanchikov@gmail.com) \
 __GitHub__: [TimeIsOut](https://github.com/TimeIsOut) \
 __Discord__: GameIsOn#9341
 ### Some facts about me
-I am 17 years old, studying at the 1503 School in the 11th grade. I have ended
-the Yandex.Lyceum project, ending in one of the best students of the students' flow.
+I am 17 years old, studying at the 1503 School in the 11th grade.
 I love coding, love coffee and hate lack of time. It's exciting for me to find new relationships
 in my workplace/office and talk a lot about themes, that don't even make sense. My core
 strengths are fast-learning and adapting to any problems appearing in front of me.
@@ -24,3 +23,19 @@ strengths are fast-learning and adapting to any problems appearing in front of m
 * Pycharm, Webstorm, Intellij Idea
 * Git
 * Windows, Linux(CentOS, Ubuntu, Debian)
+### Example of my code
+Solution to [Absent vowel](https://www.codewars.com/kata/56414fdc6488ee99db00002c) 
+Kata on Codewars:
+```
+function absentVowel(x) {
+    var vowels = "aeiou"
+    for (let i = 0; i <= 4; i++) {
+        if (x.indexOf(vowels[i]) == -1) {
+            return i
+        }
+    }
+}
+```
+### Code experience
+* [ShareMyTrip](https://github.com/TimeIsOut/HelpingMyFriend) - map app, using YandexMapAPI, Flask and sqlalchemy.
+* [workplace](https://github.com/TimeIsOut/workplace) - Python solutions for Codewars katas.
