@@ -1,75 +1,90 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <title>Timothy Anchikov</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <header>
-            <div class="header-info container">
-                <div>
-                    <img id="avatar" src="img/avatar.jpg" alt="My avatar">
-                </div>
-                <div>
-                    <h1>Timothy Anchikov</h1>
-                    <h2>Junior Frontend Developer</h2>
-                </div>
-                <nav class="menu">
-                    <h3><a href="#profileInfo">Profile info</a></h3>
-                    <h3><a href="#skills">Skills</a></h3>
-                    <h3><a href="#codeExample">Code example</a></h3>
-                    <h3><a href="#codeExperience">Code experience</a></h3>
-                    <h3><a href="#education">Education</a></h3>
-                    <h3><a href="#languages">Languages</a></h3>
-                </nav>
-                <div>
-                    <ul style="list-style-type: none;">
-                        <li>Telephone: <a href="tel:79199622975">+7(919)962-29-75</a> (RU)</li>
-                        <li>Email: <a href="mailto:y0u-g0t-hack3d@yandex.ru">y0u-g0t-hack3d@yandex.ru</a></li>
-                        <li>Discord: @GameIsOn#9341</li>
-                    </ul>
-                </div>
-            </div>
-        </header>
-        <main class="container">
-            <article id="profileInfo">
-                <h2 class="profile">Profile info</h2>
-                <p class="profile">I am 17 years old, studying at the 1503 School in the 11th grade.
-                    I love coding, love coffee and hate lack of time.
-                    It’s exciting for me to find new relationships in my workplace/office and talk a lot about themes,
-                    that don’t even make sense.
-                    My core strengths are fast-learning and adapting to any problems appearing in front of me.</p>
-            </article>
-            <section id="skills">
-                <h2 class="profile">Skills</h2>
-                <ul class="profile">
-                    <li>HTML5, CSS3</li>
-                    <li>Python - Middle
-                        <ul>
-                            <li>Flask</li>
-                            <li>sqlalchemy, SQLite</li>
-                            <li>FastAPI</li>
-                            <li>pygame</li>
-                            <li>PyQt5</li>
-                            <li>telebot, discordbot, vkapi</li>
-                        </ul>
-                    </li>
-                    <li>JavaScript - Basic</li>
-                    <li>Kotlin - Basic</li>
-                    <li>PyCharm, WebStorm, Intellij Idea</li>
-                    <li>Git</li>
-                    <li>Windows, Linux(CentOS, Ubuntu, Debian)</li>
+<head>
+    <title>Timothy Anchikov</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+</head>
+<body>
+<nav class="mobile-menu">
+    <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+    <label for="checkbox" class="mobile-menu__btn">
+    </label>
+    <div class="mobile-menu__container">
+        <ul class="mobile-menu__list">
+            <li class="mobile-menu__item"><a href="#profileInfo" class="mobile-menu__link">Profile info</a></li>
+            <li class="mobile-menu__item"><a href="#skills" class="mobile-menu__link">Skills</a></li>
+            <li class="mobile-menu__item"><a href="#codeExample" class="mobile-menu__link">Code example</a></li>
+            <li class="mobile-menu__item"><a href="#codeExperience" class="mobile-menu__link">Code experience</a></li>
+            <li class="mobile-menu__item"><a href="#education" class="mobile-menu__link">Education</a></li>
+            <li class="mobile-menu__item"><a href="#languages" class="mobile-menu__link">Languages</a></li>
+        </ul>
+    </div>
+</nav>
+<header>
+    <div class="header-info container">
+        <div>
+            <img id="avatar" src="img/avatar.jpg" alt="My avatar">
+        </div>
+        <div>
+            <h1>Timothy Anchikov</h1>
+            <h2>Junior Frontend Developer</h2>
+        </div>
+        <nav class="menu">
+            <h3><a href="#profileInfo">Profile info</a></h3>
+            <h3><a href="#skills">Skills</a></h3>
+            <h3><a href="#codeExample">Code example</a></h3>
+            <h3><a href="#codeExperience">Code experience</a></h3>
+            <h3><a href="#education">Education</a></h3>
+            <h3><a href="#languages">Languages</a></h3>
+        </nav>
+        <div>
+            <ul style="list-style-type: none;">
+                <li>Telephone: <a href="tel:79199622975">+7(919)962-29-75</a> (RU)</li>
+                <li>Email: <a href="mailto:y0u-g0t-hack3d@yandex.ru">y0u-g0t-hack3d@yandex.ru</a></li>
+                <li>Discord: @GameIsOn#9341</li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main class="container">
+    <article id="profileInfo">
+        <h2 class="profile">Profile info</h2>
+        <p class="profile">I am 17 years old, studying at the 1503 School in the 11th grade.
+            I love coding, love coffee and hate lack of time.
+            It’s exciting for me to find new relationships in my workplace/office and talk a lot about themes,
+            that don’t even make sense.
+            My core strengths are fast-learning and adapting to any problems appearing in front of me.</p>
+    </article>
+    <section id="skills">
+        <h2 class="profile">Skills</h2>
+        <ul class="profile">
+            <li>HTML5, CSS3</li>
+            <li>Python - Middle
+                <ul>
+                    <li>Flask</li>
+                    <li>sqlalchemy, SQLite</li>
+                    <li>FastAPI</li>
+                    <li>pygame</li>
+                    <li>PyQt5</li>
+                    <li>telebot, discordbot, vkapi</li>
                 </ul>
-            </section>
-            <section id="codeExample">
-                <h2 class="profile">Example of my code</h2>
-                <p class="profile">Solution of <a href="https://www.codewars.com/kata/56414fdc6488ee99db00002c">Absent vowel</a> Kata on Codewars</p>
-                <pre style="padding: 2em"><code class="language-js" style="width: 400px;">
+            </li>
+            <li>JavaScript - Basic</li>
+            <li>Kotlin - Basic</li>
+            <li>PyCharm, WebStorm, Intellij Idea</li>
+            <li>Git</li>
+            <li>Windows, Linux(CentOS, Ubuntu, Debian)</li>
+        </ul>
+    </section>
+    <section id="codeExample">
+        <h2 class="profile">Example of my code</h2>
+        <p class="profile">Solution of <a href="https://www.codewars.com/kata/56414fdc6488ee99db00002c">Absent vowel</a> Kata on Codewars</p>
+        <pre style="padding: 2em"><code class="language-js" style="width: 400px;">
 function absentVowel(x) {<br>
     var vowels = "aeiou"<br>
     for (let i = 0; i &lt;= 4; i++) {<br>
@@ -79,43 +94,43 @@ function absentVowel(x) {<br>
     }<br>
 }
                 </code></pre>
-            </section>
-            <section id="codeExperience">
-                <h2 class="profile">Code experience</h2>
-                <ul class="profile">
-                    <li>ShareMyTrip - map app, using YandexMapAPI, Flask and sqlalchemy.<br>
-                    <a href="https://github.com/TimeIsOut/HelpingMyFriend" target="_blank">
-                        <img class="project" src="img/project.png" alt="ShareMyTrip project"></a></li>
-                    <li><a href="https://github.com/TimeIsOut/workplace">workplace</a> - Python solutions for Codewars katas.</li>
-                </ul>
-            </section>
-            <section id="education">
-                <h2 class="profile">Education</h2>
-                <ol class="profile">
-                    <li>Yandex.Lyceum project:
-                    <ul>
-                        <li><a href="https://lyceum.yandex.ru/certificate/check/?certNumber=200133960&lastName=Анчиков" target="_blank">First year of education</a></li>
-                        <li><a href="https://lyceum.yandex.ru/certificate/check/?certNumber=210233960&lastName=Анчиков" target="_blank">Second year of education</a></li>
-                    </ul></li>
-                    <li>Secondary education at School 1503</li>
-                    <li>Sololearn courses - Python, JS, SQL (not finished)</li>
-                </ol>
-            </section>
-            <section id="languages">
-                <h2 class="profile">Languages</h2>
-                <ul class="profile">
-                    <li>Russian - primary</li>
-                    <li>English - secondary (level: B2)</li>
-                </ul>
-            </section>
-        </main>
-        <footer>
-            <div class="footer-info container">
-                <a href="https://rs.school/js/">
-                    <img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="RSSchool Logo"></a>
-                <p>2021</p>
-                <p>My GitHub is <a href="https://github.com/TimeIsOut">TimeIsOut</a></p>
-            </div>
-        </footer>
-    </body>
+    </section>
+    <section id="codeExperience">
+        <h2 class="profile">Code experience</h2>
+        <ul class="profile">
+            <li>ShareMyTrip - map app, using YandexMapAPI, Flask and sqlalchemy.<br>
+                <a href="https://github.com/TimeIsOut/HelpingMyFriend" target="_blank">
+                    <img class="project" src="img/project.png" alt="ShareMyTrip project"></a></li>
+            <li><a href="https://github.com/TimeIsOut/workplace">workplace</a> - Python solutions for Codewars katas.</li>
+        </ul>
+    </section>
+    <section id="education">
+        <h2 class="profile">Education</h2>
+        <ol class="profile">
+            <li>Yandex.Lyceum project:
+                <ul>
+                    <li><a href="https://lyceum.yandex.ru/certificate/check/?certNumber=200133960&lastName=Анчиков" target="_blank">First year of education</a></li>
+                    <li><a href="https://lyceum.yandex.ru/certificate/check/?certNumber=210233960&lastName=Анчиков" target="_blank">Second year of education</a></li>
+                </ul></li>
+            <li>Secondary education at School 1503</li>
+            <li>Sololearn courses - Python, JS, SQL (not finished)</li>
+        </ol>
+    </section>
+    <section id="languages">
+        <h2 class="profile">Languages</h2>
+        <ul class="profile">
+            <li>Russian - primary</li>
+            <li>English - secondary (level: B2)</li>
+        </ul>
+    </section>
+</main>
+<footer>
+    <div class="footer-info container">
+        <a href="https://rs.school/js/">
+            <img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="RSSchool Logo"></a>
+        <p>2021</p>
+        <p>My GitHub is <a href="https://github.com/TimeIsOut">TimeIsOut</a></p>
+    </div>
+</footer>
+</body>
 </html>
