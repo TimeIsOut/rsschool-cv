@@ -44,6 +44,11 @@
     height: auto;
 }
 
+.container {
+    max-width: 1770px;
+    margin: auto;
+}
+
 header {
     background-color: var(--bg-color);
     width: 100%;
