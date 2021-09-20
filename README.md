@@ -1,1 +1,1 @@
-https://your-github-account.github.io/rsschool-cv/cv
+https://timeisout.github.io/rsschool-cv/
